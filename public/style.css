@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.topblock {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+input[type="text"] {
+	border-radius: 15px 15px 15px 15px;
+    background: #fff;
+    padding: 10px;
+    border: 3px solid #ffabab;
+    font-family: Gill Sans Nova;
+}
+
+
+button {
+	font-size: 1rem;
+    border: 6px solid #ffabab;
+    border-radius: 15px 15px 15px 15px;
+    background: #ff2121;
+    padding: 5px;
+    font-family: Gill Sans Nova;
+    color: #fff;
+    cursor: pointer;
+}
+
+.top-list {
+  
+  font-family: Gill Sans Nova;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.top-btn {
+  width: 100%;
+  margin-top: 5px;
+  background: #e42c2c;
+  border-radius: 15px 15px 15px 15px;
+  font-size:15px;
+  font-family: Gill Sans Nova;
+  cursor: pointer;
+}
